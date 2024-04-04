@@ -27,5 +27,8 @@ THEN the saved tasks persist
 
 
 ## Resources
+- Setting up my Modal: https://getbootstrap.com/docs/5.3/components/modal/ ,https://youtu.be/ahglWgTnyXI?si=J45UJwUh8WE6JLph
+- Form: https://getbootstrap.com/docs/5.3/forms/input-group/
+
 
 
