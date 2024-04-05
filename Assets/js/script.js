@@ -4,20 +4,27 @@ let nextId = JSON.parse(localStorage.getItem("nextId"));
 
 // Todo: create a function to generate a unique task id
 function generateTaskId() {
-    const timestamp = Date.now().toString(36); // Convert current time to base36 string
-    const randomNum = Math.random().toString(36).substr(2, 5); // Generate a random number and convert to base36 string
-
-    return timestamp + randomNum;
-
-
-const uniqueId = generateUniqueId();
-console.log(uniqueId);
-
-
+   const randomNumber = Math.floor(Math.random()*100)
+   const randomString= randomNumber.toString();
+   const uniqueId = randomString;
 }
-
+const uniqueId = generateTaskId();
+console.log (uniqueId)
 // Todo: create a function to create a task card
 function createTaskCard(task) {
+   const card = document.createElement (`div`);
+   card.classList.add(`task-card`);
+   
+   const cardTitle=document.createElement(`h4`);
+   cardTitle.textContent= title;
+   
+   const cardDescription = document.createElement(`p`);
+   cardDescription.textContent = description;
+
+   card.appendChild(cardTitle);
+   card.appendChild(cardDescription);
+
+   return card;
 
 }
 

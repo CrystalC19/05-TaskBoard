@@ -23,6 +23,8 @@ THEN the saved tasks persist
 
 
 ## Link to deployed application
+- https://github.com/CrystalC19/05-TaskBoard.git
+- https://crystalc19.github.io/05-TaskBoard/index.html
 
 
 
